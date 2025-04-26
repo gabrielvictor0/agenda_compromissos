@@ -38,6 +38,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.statusComboBox = new System.Windows.Forms.ComboBox();
             this.voltarLinkLabel = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -45,7 +47,8 @@
             // editButton
             // 
             this.editButton.BackColor = System.Drawing.SystemColors.Info;
-            this.editButton.Location = new System.Drawing.Point(47, 308);
+            this.editButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.editButton.Location = new System.Drawing.Point(47, 375);
             this.editButton.Name = "editButton";
             this.editButton.Size = new System.Drawing.Size(148, 38);
             this.editButton.TabIndex = 0;
@@ -56,7 +59,8 @@
             // deleteButton
             // 
             this.deleteButton.BackColor = System.Drawing.Color.LightSalmon;
-            this.deleteButton.Location = new System.Drawing.Point(233, 308);
+            this.deleteButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.deleteButton.Location = new System.Drawing.Point(233, 375);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(148, 38);
             this.deleteButton.TabIndex = 1;
@@ -123,6 +127,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.statusComboBox);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.dateTimePicker);
@@ -134,9 +140,27 @@
             this.groupBox1.Controls.Add(this.editButton);
             this.groupBox1.Location = new System.Drawing.Point(191, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(427, 388);
+            this.groupBox1.Size = new System.Drawing.Size(427, 460);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(46, 298);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(47, 16);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Status:";
+            // 
+            // statusComboBox
+            // 
+            this.statusComboBox.FormattingEnabled = true;
+            this.statusComboBox.Location = new System.Drawing.Point(47, 322);
+            this.statusComboBox.Name = "statusComboBox";
+            this.statusComboBox.Size = new System.Drawing.Size(332, 24);
+            this.statusComboBox.TabIndex = 9;
+            this.statusComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             // 
             // voltarLinkLabel
             // 
@@ -153,11 +177,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 513);
             this.Controls.Add(this.voltarLinkLabel);
             this.Controls.Add(this.groupBox1);
             this.Name = "SelectedAppointment";
             this.Text = "SelectedAppointment";
+            this.Load += new System.EventHandler(this.SelectedAppointment_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -178,5 +203,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.LinkLabel voltarLinkLabel;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox statusComboBox;
     }
 }

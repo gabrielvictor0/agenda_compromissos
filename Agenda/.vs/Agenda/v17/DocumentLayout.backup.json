@@ -1,43 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bielg\\source\\repos\\Agenda\\",
+  "WorkspaceRootPath": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\onedrive\\desktop\\agenda_compromissos\\agenda\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\onedrive\\desktop\\agenda_compromissos\\agenda\\selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\registerappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\registerappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:registerappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\registerappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\registerappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:registerappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:selectedappointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bielg\\AppData\\Local\\Temp\\mdv1w4dc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|c:\\users\\bielg\\source\\repos\\agenda\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{263215B5-F2B2-4D27-8297-C2F9C021D228}|Agenda.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bielg\\AppData\\Local\\Temp\\mdv1w4dc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bielg\\AppData\\Local\\Temp\\mdv1w4dc..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,15 +45,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Appointment.cs",
+              "RelativeDocumentMoniker": "Appointment.cs",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Appointment.cs",
+              "RelativeToolTip": "Appointment.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDgAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T02:32:08.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SelectedAppointment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\SelectedAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\SelectedAppointment.cs",
               "RelativeDocumentMoniker": "SelectedAppointment.cs",
-              "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\SelectedAppointment.cs [Design]",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\SelectedAppointment.cs [Design]",
               "RelativeToolTip": "SelectedAppointment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:47:07.244Z",
@@ -63,13 +74,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SelectedAppointment.cs",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\SelectedAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\SelectedAppointment.cs",
               "RelativeDocumentMoniker": "SelectedAppointment.cs",
-              "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\SelectedAppointment.cs",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\SelectedAppointment.cs",
               "RelativeToolTip": "SelectedAppointment.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAD4v4AAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAEwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:43:11.188Z",
               "EditorCaption": ""
@@ -78,9 +89,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "RegisterAppointment.cs",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\RegisterAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\RegisterAppointment.cs",
               "RelativeDocumentMoniker": "RegisterAppointment.cs",
-              "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\RegisterAppointment.cs",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\RegisterAppointment.cs",
               "RelativeToolTip": "RegisterAppointment.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAD4v0wAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,9 +102,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "RegisterAppointment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\RegisterAppointment.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\RegisterAppointment.cs",
               "RelativeDocumentMoniker": "RegisterAppointment.cs",
-              "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\RegisterAppointment.cs [Design]",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\RegisterAppointment.cs [Design]",
               "RelativeToolTip": "RegisterAppointment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:37:11.648Z",
@@ -101,36 +112,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\Login.cs",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Login.cs",
               "RelativeToolTip": "Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:31:52.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T00:31:52.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Login.cs",
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\Login.cs [Design]",
-              "RelativeToolTip": "Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Agenda\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T00:14:32.015Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-26T00:14:32.015Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Appointment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\bielg\\source\\repos\\Agenda\\Appointment.cs",
+              "DocumentMoniker": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Appointment.cs",
               "RelativeDocumentMoniker": "Appointment.cs",
-              "ToolTip": "C:\\Users\\bielg\\source\\repos\\Agenda\\Appointment.cs [Design]",
+              "ToolTip": "C:\\Users\\bielg\\OneDrive\\Desktop\\agenda_compromissos\\Agenda\\Appointment.cs [Design]",
               "RelativeToolTip": "Appointment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-26T00:13:02.791Z",
@@ -138,14 +147,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SQLQuery1.sql ",
+              "DocumentIndex": 7,
+              "Title": "mdv1w4dc..sql",
               "DocumentMoniker": "C:\\Users\\bielg\\AppData\\Local\\Temp\\mdv1w4dc..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\mdv1w4dc..sql",
-              "ToolTip": "SQLQuery1.sql *",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\mdv1w4dc..sql",
+              "ToolTip": "C:\\Users\\bielg\\AppData\\Local\\Temp\\mdv1w4dc..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\mdv1w4dc..sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-04-25T22:42:11.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-25T22:42:11.816Z"
             }
           ]
         }

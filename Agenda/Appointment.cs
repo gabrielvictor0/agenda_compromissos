@@ -30,7 +30,7 @@ namespace Agenda
             {
                 Connection con = new Connection();
 
-                string query = $"SELECT id, title as 'Título', description as 'Descrição', [date] as 'Data' FROM appointment WHERE id_user = {Properties.Settings.Default.idUser}";
+                string query = $"SELECT id, title as 'Título', description as 'Descrição', [date] as 'Data', [status] as 'Status' FROM appointment WHERE id_user = {Properties.Settings.Default.idUser}";
 
                 Connection.con.Open();
                 SqlCommand cmd = new SqlCommand(query, Connection.con);
@@ -41,6 +41,29 @@ namespace Agenda
 
                 dataGridView.DataSource = dt;
                 dataGridView.Columns["id"].Visible = false;
+
+                for(int i = 0; i < dataGridView.Rows.Count - 1; i++)
+                {
+                    string status = dataGridView.Rows[i].Cells[4].Value.ToString();
+
+                    switch (status)
+                    {
+                        case "Concluído":
+                            dataGridView.Rows[i].Cells[4].Style.BackColor = Color.LightGreen;
+                            break;
+                        case "Cancelado":
+                            dataGridView.Rows[i].Cells[4].Style.BackColor = Color.Orange;
+                            break;
+                        case "Pendente":
+                            dataGridView.Rows[i].Cells[4].Style.BackColor = Color.Yellow;
+                            break;
+                        case "Em andamento":
+                            dataGridView.Rows[i].Cells[4].Style.BackColor = Color.LightSkyBlue;
+                            break;
+                        default:
+                            break;
+                    }
+                }
             }
             catch (Exception)
             {
@@ -69,8 +92,8 @@ namespace Agenda
         }
 
         private void DataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        { 
-            SelectedAppointment selectedAppointment = new SelectedAppointment((int) dataGridView.CurrentRow.Cells[0].Value, dataGridView.CurrentRow.Cells[1].Value.ToString(), dataGridView.CurrentRow.Cells[2].Value.ToString(), dataGridView.CurrentRow.Cells[3].Value.ToString());
+        {
+            SelectedAppointment selectedAppointment = new SelectedAppointment((int) dataGridView.CurrentRow.Cells[0].Value, dataGridView.CurrentRow.Cells[1].Value.ToString(), dataGridView.CurrentRow.Cells[2].Value.ToString(), dataGridView.CurrentRow.Cells[3].Value.ToString(), dataGridView.CurrentRow.Cells[4].Value.ToString());
             Thread th = new Thread(selectedAppointment.OpenSelectedAppointmentForm);
             th.SetApartmentState(ApartmentState.STA);
             th.Start();

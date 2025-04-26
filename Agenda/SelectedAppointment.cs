@@ -19,8 +19,9 @@ namespace Agenda
         string title;
         string description;
         string date;
+        string status;
 
-        public SelectedAppointment(int id, string title, string description, string date)
+        public SelectedAppointment(int id, string title, string description, string date, string status)
         {
             InitializeComponent();
 
@@ -28,16 +29,17 @@ namespace Agenda
             this.title = title;
             this.description = description;
             this.date = date;
+            this.status = status;
         }
 
         public void OpenSelectedAppointmentForm()
         {
-            SelectedAppointment selectedAppointment = new SelectedAppointment(id, title, description, date);
+            SelectedAppointment selectedAppointment = new SelectedAppointment(id, title, description, date, status);
 
             selectedAppointment.titleTextBox.Text = title;
             selectedAppointment.descriptionTextBox.Text =  description;
             selectedAppointment.dateTimePicker.Value = DateTime.Parse(date);
-            
+
             Application.Run(selectedAppointment);
         }
 
@@ -93,7 +95,7 @@ namespace Agenda
                 if(result == DialogResult.Yes)
                 {
                     con = new Connection();
-                    string query = $"UPDATE appointment SET title = '{titleTextBox.Text}', description = '{descriptionTextBox.Text}', date = '{dateTimePicker.Value}' WHERE id = {id}";
+                    string query = $"UPDATE appointment SET title = '{titleTextBox.Text}', description = '{descriptionTextBox.Text}', date = '{dateTimePicker.Value}', [status] = '{statusComboBox.Text}' WHERE id = {id}";
                     con.ExecuteNonQuery(query);
 
                     MessageBox.Show("O compromisso foi editado com êxito!", "Sucesso!");
@@ -127,6 +129,22 @@ namespace Agenda
             th.SetApartmentState(ApartmentState.STA);
             th.Start();
             this.Close();
+        }
+
+        private void SelectedAppointment_Load(object sender, EventArgs e)
+        {
+            statusComboBox.Items.Add("Pendente");
+            statusComboBox.Items.Add("Concluído");
+            statusComboBox.Items.Add("Cancelado");
+            statusComboBox.Items.Add("Em andamento");
+
+            for (int i = 0; i < statusComboBox.Items.Count; i++)
+            {
+                if (statusComboBox.Items[i].ToString() == status)
+                {
+                    statusComboBox.SelectedItem = statusComboBox.Items[i];
+                }
+            }
         }
     }
 }
