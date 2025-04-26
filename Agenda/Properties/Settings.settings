@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Agenda.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="idUser" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="stringConnection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=DESKTOPGA;Initial Catalog=agenda;Integrated Security=True;Encrypt=False;TrustServerCertificate=True;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
